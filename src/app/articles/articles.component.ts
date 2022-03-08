@@ -11,9 +11,12 @@ import { Article } from '../models/article.model';
 export class ArticlesComponent implements OnInit {
   public articles: Article[] = [];
 
-  constructor()   { }
+  constructor() { }
 
   ngOnInit(): void {
     this.articles = new ArticleData().getData();
+
+    console.log('list with articles', this.articles);
   }
+
 }

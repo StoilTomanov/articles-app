@@ -8,12 +8,12 @@ import { Article } from '../models/article.model';
 })
 
 export class ArticleComponent implements OnInit {
+  private symbols: number = 250;
   constructor() {
     this.articleDescLen = 0;
     this.descToShow = '';
   }
 
-  private symbols: number = 250;
   @Input() article!: Article;
   @Input() articleDesc!: string;
   descToShow: string;
