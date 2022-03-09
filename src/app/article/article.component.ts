@@ -49,7 +49,7 @@ export class ArticleComponent implements OnInit {
 
   public hideDesc(): void {
     this.descToShow = '';
-    this.articleDescLen - 0;
+    this.articleDescLen = 0;
     this.showReadMoreBtn = true;
     this.showHideBtn = false;
   }
