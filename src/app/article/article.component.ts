@@ -24,7 +24,7 @@ export class ArticleComponent implements OnInit {
   imageButtonTitle: string = 'Show Image';
 
   ngOnInit(): void {
-
+    
   }
 
   public readMore(): void {
